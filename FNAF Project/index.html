@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Five Nights At Freddy's</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to top left, #28b487, #7dd56f);
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+      button {
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+      }
+      textarea {
+        width: 300px;
+        height: 100px;
+      }
+      div {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FNAF</h1>
+    <button class="start">Start</button>
+
+    <!-- Left Side Door and button -->
+    <div class="leftSide">
+      <div class="door">Left Door: Is Empty</div>
+      <button class="button lightLeft">Left Light</button>
+      <button class="button closeLeft">Close Left</button>
+    </div>
+    
+    <!-- Right Side Door and button -->
+    <div class="rightSide">
+      <div class="door">Right Door: Is Empty</div>
+      <button class="button lightRight">Right Light</button>
+      <button class="button closeRight">Close Right</button>
+    </div>
+
+    <!-- Cameras -->
+    <button class="camHover">Open Cameras</button>
+    <div class="cameras hidden">
+      <p class="currentRoom">Show Stage</p>
+      <div>
+        <h3>Animatronics Here:</h3>
+        <div class="anims">
+          <p>Freddy</p>
+          <p>Bonnie</p>
+          <p>Chica</p>
+        </div>
+      </div>
+      
+
+      <button class="CAM1A">CAM1A</button>
+      <button class="CAM1B">CAM1B</button>
+
+      <button class="CAM1C">CAM1C</button>
+      <button class="CAM5">CAM5</button>
+      <button class="CAM3">CAM3</button>
+      <button class="CAM2A">CAM2A</button>
+      <button class="CAM2B">CAM2B</button>
+
+
+      <button class="CAM7">CAM7</button>
+      <button class="CAM6">CAM6</button>
+      <button class="CAM4A">CAM4A</button>
+      <button class="CAM4B">CAM4B</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
